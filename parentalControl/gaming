@@ -1,0 +1,41 @@
+# ===============================================================
+# Title: Gaming block list
+#
+# Date: 20 July 2021 16:15:59 (UTC)
+#
+# Fetch the latest version of this file: https://raw.githubusercontent.com/mk-in/pihole/main/parentalControl/gaming
+#
+# ===============================================================
+
+# ===============================================================
+# Base
+# ===============================================================
+
+127.0.0.1 localhost
+127.0.0.1 localhost.localdomain
+127.0.0.1 local
+255.255.255.255 broadcasthost
+::1 localhost
+::1 ip6-localhost
+::1 ip6-loopback
+fe80::1%lo0 localhost
+ff00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
+0.0.0.0 0.0.0.0
+
+
+# ===============================================================
+# Static Host records are listed here.
+# ===============================================================
+0.0.0.0 ns.exitgames.com
+0.0.0.0 hole-io.com
+0.0.0.0 chompers.io
+0.0.0.0 kizi.com
+0.0.0.0 slither.io
+0.0.0.0 titotu.io
+0.0.0.0 wormate.io
+0.0.0.0 gamasexual.com
+0.0.0.0 scribble.io
